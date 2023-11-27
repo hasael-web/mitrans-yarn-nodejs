@@ -1,0 +1,5 @@
+npx sequelize-cli model:generate --name products --attributes id_product:number,name_product:string,amount:number,price:number,subtotal:number 
+
+npx sequelize-cli db:migrate
+
+npx sequelize-cli model:generate --name users --attributes email:string, username:string 
